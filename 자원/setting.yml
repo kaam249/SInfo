@@ -38,10 +38,9 @@ adjust-horizontal-text-on-screen: 0
 adjust-vertical-text-on-screen: '-3'
 
 text-on-screen-format: |-
-  §l{MOTD}§r
+  §l§feconomy farm
+  §b플레이어 닉네임 : §f{NAME}
   §b접속자 수 : §f{PLAYERS}/{MAXPLAYERS}명
-  §b현재 월드 : §f{WORLD} ({WORLDPLAYERS}명)
   §b소지한 돈 : §f{MONEY} ({MONEYRANK}위)
-  §b좌표 : §fx={X}, y={Y}, z={Z}
 
 enable-replacable-chat: false
