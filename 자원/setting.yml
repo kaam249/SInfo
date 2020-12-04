@@ -27,7 +27,7 @@
 # 화면에 띄워지는 텍스트의 채널을 설정합니다.
 # popup, tip, actionbar 중 하나를 입력하세요.
 # tip을 권장합니다.
-text-on-screen-channel: tip
+text-on-screen-channel: actionbar
 
 # 텍스트의 수평선상 위치를 조절합니다. 음수는 왼쪽, 0은 중앙, 양수는 오른쪽 입니다.
 # -3 ~ 3 사이의 값을 넣으세요
@@ -38,10 +38,9 @@ adjust-horizontal-text-on-screen: 0
 adjust-vertical-text-on-screen: '-3'
 
 text-on-screen-format: |-
-  §l{MOTD}§r
+  §l§feconomy farm
+  §b플레이어 닉네임 : §f{NAME}
   §b접속자 수 : §f{PLAYERS}/{MAXPLAYERS}명
-  §b현재 월드 : §f{WORLD} ({WORLDPLAYERS}명)
   §b소지한 돈 : §f{MONEY} ({MONEYRANK}위)
-  §b좌표 : §fx={X}, y={Y}, z={Z}
 
 enable-replacable-chat: false
